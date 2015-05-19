@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'gringo',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: 'https://radiant-fire-7768.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

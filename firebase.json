@@ -1,0 +1,9 @@
+{
+  "firebase": "radiant-fire-7768",
+  "public": "./dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
