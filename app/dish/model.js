@@ -7,5 +7,6 @@ export default DS.Model.extend({
 	price:       DS.attr('number'),
 	hot:         DS.attr('number'),
 	available:   DS.attr('boolean'),
-	show:        DS.attr('boolean')
+	show:        DS.attr('boolean'),
+	menuSection: DS.belongsTo('menu-section')
 });
