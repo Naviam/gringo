@@ -1,0 +1,1076 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"broccoli",
+				"broccoli-sass"
+			],
+			[
+				"true",
+				"truecron"
+			],
+			[
+				"profie",
+				"profileMethod"
+			],
+			[
+				"conf",
+				"configurable"
+			],
+			[
+				"cer",
+				"certExists"
+			],
+			[
+				"pr",
+				"process"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"acc",
+				"accountSchema"
+			],
+			[
+				"pro",
+				"provider"
+			],
+			[
+				"v",
+				"versionControl"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"require",
+				"required"
+			],
+			[
+				"e",
+				"email"
+			],
+			[
+				"E",
+				"Email"
+			],
+			[
+				"is",
+				"isArchived"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"ac",
+				"account"
+			],
+			[
+				"pa",
+				"parser"
+			],
+			[
+				"btn",
+				"btn-block"
+			],
+			[
+				"link",
+				"link-to"
+			],
+			[
+				"sig",
+				"signup"
+			],
+			[
+				"work",
+				"workorders"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"com",
+				"comments"
+			],
+			[
+				"new",
+				"newpost"
+			],
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"low",
+				"lowestScore"
+			],
+			[
+				"s",
+				"score"
+			],
+			[
+				"lowes",
+				"lowestScore"
+			],
+			[
+				"score",
+				"scores"
+			],
+			[
+				"sco",
+				"scores"
+			],
+			[
+				"lo",
+				"lowestScore"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"bas",
+				"basic"
+			],
+			[
+				"source",
+				"sourceProvider"
+			],
+			[
+				"git",
+				"githubHelper"
+			],
+			[
+				"github",
+				"github"
+			],
+			[
+				"deb",
+				"debugger"
+			],
+			[
+				"a",
+				"authenticate"
+			],
+			[
+				"fin",
+				"findById"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"gt",
+				"github"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"sa",
+				"saveError"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"p",
+				"providerName"
+			],
+			[
+				"d",
+				"domain"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"account",
+				"account"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"ps",
+				"params"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"Ac",
+				"Account"
+			],
+			[
+				"acco",
+				"account"
+			],
+			[
+				"o",
+				"org"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bt",
+				"btn-default"
+			],
+			[
+				"r",
+				"render"
+			],
+			[
+				"na",
+				"nav-stacked"
+			],
+			[
+				"nav",
+				"nav-pills"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"ca",
+				"callbackURL"
+			],
+			[
+				"cli",
+				"clientSecret"
+			],
+			[
+				"ser",
+				"serializeUser"
+			],
+			[
+				"auth",
+				"authenticate"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"use",
+				"userSchema"
+			],
+			[
+				"githu",
+				"github"
+			],
+			[
+				"proto",
+				"protocol"
+			],
+			[
+				"mo",
+				"mongodb"
+			],
+			[
+				"confi",
+				"configuration"
+			],
+			[
+				"i",
+				"info"
+			],
+			[
+				"g",
+				"green"
+			],
+			[
+				"w",
+				"warning"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"en",
+				"environmentSchema"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"get",
+				"getBranches"
+			],
+			[
+				"Res",
+				"result"
+			],
+			[
+				"Err",
+				"error"
+			],
+			[
+				"repo",
+				"repo"
+			],
+			[
+				"environmentS",
+				"environmentSetupSchema"
+			],
+			[
+				"input",
+				"input"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"ge",
+				"getCommits"
+			],
+			[
+				"sc",
+				"scard"
+			],
+			[
+				"rep",
+				"repo"
+			],
+			[
+				"Ser",
+				"ServiceClick"
+			],
+			[
+				"gith",
+				"github"
+			],
+			[
+				"red",
+				"redisClient"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"web",
+				"webhook"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"ow",
+				"owner"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"labe",
+				"label-primary"
+			],
+			[
+				"br",
+				"branchname"
+			],
+			[
+				"own",
+				"ownerName"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"lab",
+				"label-primary"
+			],
+			[
+				"obse",
+				"observableArray"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"fu",
+				"fullname"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"sub",
+				"sub-header"
+			],
+			[
+				"St",
+				"STAGING"
+			],
+			[
+				"Q",
+				"QA2"
+			],
+			[
+				"input-sm",
+				"input-group-sm"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"commit",
+				"commitSchema"
+			],
+			[
+				"ex",
+				"express"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"id",
+				"githubId"
+			],
+			[
+				"fi",
+				"findOrCreate"
+			],
+			[
+				"tes",
+				"text-justify"
+			],
+			[
+				"bst-",
+				"bst-navbar	bst-navbar"
+			],
+			[
+				"sto",
+				"storySchema"
+			],
+			[
+				"stage",
+				"stageSchema"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/admin/template.hbs",
+			"settings":
+			{
+				"buffer_size": 787,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/menu-section/model.js",
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INsta",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Remove Package"
+			],
+			[
+				"REST",
+				"RESTer: HTTP Request"
+			],
+			[
+				"",
+				"RESTer: HTTP Request"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Sublimelinter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Sub",
+				"SublimeREPL: Node"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"INstall",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"RES",
+				"RESTer: HTTP Request"
+			],
+			[
+				"RE",
+				"RESTer: HTTP Request"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pa",
+				"Package Control: Add Repository"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"RESTer",
+				"Set Syntax: reStructuredText"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 177.0,
+		"history":
+		[
+			"node",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"ls",
+			"2-1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vitalihatalski/naviam/gringo",
+		"/Users/vitalihatalski/naviam/gringo/app",
+		"/Users/vitalihatalski/naviam/gringo/app/address",
+		"/Users/vitalihatalski/naviam/gringo/app/admin",
+		"/Users/vitalihatalski/naviam/gringo/app/application",
+		"/Users/vitalihatalski/naviam/gringo/app/cart",
+		"/Users/vitalihatalski/naviam/gringo/app/cart-item",
+		"/Users/vitalihatalski/naviam/gringo/app/dish",
+		"/Users/vitalihatalski/naviam/gringo/app/menu-section",
+		"/Users/vitalihatalski/naviam/gringo/app/order",
+		"/Users/vitalihatalski/naviam/gringo/app/styles",
+		"/Users/vitalihatalski/naviam/gringo/app/user",
+		"/Users/vitalihatalski/naviam/gringo/config",
+		"/Users/vitalihatalski/naviam/gringo/dist",
+		"/Users/vitalihatalski/naviam/gringo/public"
+	],
+	"file_history":
+	[
+		"/Users/vitalihatalski/naviam/gringo/app/user/model.js",
+		"/Users/vitalihatalski/naviam/gringo/app/order/model.js",
+		"/Users/vitalihatalski/naviam/gringo/app/styles/app.css",
+		"/Users/vitalihatalski/naviam/gringo/bower.json",
+		"/Users/vitalihatalski/naviam/gringo/Brocfile.js",
+		"/Users/vitalihatalski/naviam/gringo/app/application/adapter.js",
+		"/Users/vitalihatalski/naviam/gringo/app/menu-section/model.js",
+		"/Users/vitalihatalski/naviam/gringo/app/address/model.js",
+		"/Users/vitalihatalski/naviam/gringo/app/dish/model.js",
+		"/Users/vitalihatalski/naviam/gringo/app/cart/model.js",
+		"/Users/vitalihatalski/naviam/gringo/app/cart-item/model.js",
+		"/Users/vitalihatalski/naviam/gringo/bower_components/firebase/README.md",
+		"/Users/vitalihatalski/naviam/gringo/bower_components/firebase/bower.json",
+		"/Users/vitalihatalski/naviam/gringo/bower_components/firebase/firebase.js",
+		"/Users/vitalihatalski/naviam/gringo/package.json",
+		"/Users/vitalihatalski/naviam/gringo/config/environment.js",
+		"/Users/vitalihatalski/naviam/gringo/.ember-cli",
+		"/Users/vitalihatalski/naviam/gringo/app/application/template.hbs",
+		"/Users/vitalihatalski/naviam/gringo/app/router.js",
+		"/Users/vitalihatalski/naviam/gringo/app/index.html",
+		"/Users/vitalihatalski/naviam/gringo/app/app.js",
+		"/Users/vitalihatalski/naviam/gringo/firebase.json",
+		"/Users/vitalihatalski/naviam/gringo/public/robots.txt",
+		"/Users/vitalihatalski/naviam/gringo/.gitignore",
+		"/Users/vitalihatalski/naviam/gringo/app/adapters/application.js",
+		"/Users/vitalihatalski/naviam/gringo/README.md",
+		"/Users/vitalihatalski/naviam/gringo/LICENSE",
+		"/Users/vitalihatalski/perkslab/truecron/client/package.json",
+		"/Users/vitalihatalski/Space Shooter Tutorial/Builds/Builds.html",
+		"/Users/vitalihatalski/Space Shooter Tutorial/1/1.html",
+		"/Users/vitalihatalski/Downloads/Landing_page_01.svg",
+		"/Users/vitalihatalski/Downloads/naviam_savings_2012_6.html",
+		"/Users/vitalihatalski/message.json",
+		"/Users/vitalihatalski/perkslab/truecron/client/bower.json",
+		"/Users/vitalihatalski/perkslab/truecron/client/app/pods/workspaces/template.hbs",
+		"/Users/vitalihatalski/Downloads/RecRuleParser.cs",
+		"/Users/vitalihatalski/perkslab/truecron/client/app/templates/application.hbs",
+		"/Users/vitalihatalski/perkslab/truecron/server/api/job-history.js",
+		"/Users/vitalihatalski/perkslab/truecron/client/app/models/job-history.js",
+		"/Users/vitalihatalski/perkslab/truecron/client/testem.json",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/nodejs-truecron-start.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/nodejs-truecron.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/nodejs.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/postgresql.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/rabbitmq.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/redis.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/default.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/debugproxy.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/nodejs-bower.sh",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/README.md",
+		"/Users/vitalihatalski/perkslab/truecron/server.js",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/provision/nodejs-psql.sh",
+		"/Users/vitalihatalski/perkslab/truecron/server/server.js",
+		"/Users/vitalihatalski/perkslab/truecron/server/api/history.js",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/dev/debugproxy.js",
+		"/Users/vitalihatalski/perkslab/truecron/server/app.js",
+		"/Users/vitalihatalski/perkslab/truecron/server/context.js",
+		"/Users/vitalihatalski/perkslab/truecron/client/.gitignore",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/torii-providers/google-token.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/application.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/index.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/controllers/application.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/controllers/dashboard.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/config/environment.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/templates/index.hbs",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/controllers/index.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/adapters/application.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/authenticators/truecron.js",
+		"/Users/vitalihatalski/perkslab/truecron/.gitignore",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/controllers/dashboard/organization/workspace/jobs/job.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/controllers/application/index.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/Brocfile.js",
+		"/Users/vitalihatalski/perkslab/truecron/package.json",
+		"/Users/vitalihatalski/perkslab/truecron/ember/package.json",
+		"/Users/vitalihatalski/perkslab/truecron/ember/bower.json",
+		"/Users/vitalihatalski/perkslab/truecron/lib/config.js",
+		"/Users/vitalihatalski/perkslab/truecron/app.js",
+		"/Users/vitalihatalski/perkslab/truecron/test/index.js",
+		"/Users/vitalihatalski/perkslab/truecron/test/runs.js",
+		"/Users/vitalihatalski/perkslab/truecron/backend/api/worker/loggers/socketLog.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/dashboard/organization/workspace/tasks.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/dashboard/organization/workspace/jobs.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/dashboard.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/profile.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/dashboard/organization/workspace.js",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/routes/dashboard/organization.js",
+		"/Users/vitalihatalski/perkslab/truecron/bower.json",
+		"/Users/vitalihatalski/perkslab/truecron/ember/dist/index.html",
+		"/Users/vitalihatalski/perkslab/truecron/ember/app/index.html",
+		"/Users/vitalihatalski/perkslab/truecron/config/development.json",
+		"/Users/vitalihatalski/perkslab/truecron/config/production.json",
+		"/Users/vitalihatalski/perkslab/truecron/config/staging.json",
+		"/Users/vitalihatalski/perkslab/truecron/config/codeship.json",
+		"/Users/vitalihatalski/perkslab/truecron/ember/.ember-cli",
+		"/Users/vitalihatalski/perkslab/truecron/exists.js",
+		"/Users/vitalihatalski/perkslab/truecron/cnf/production.json",
+		"/Users/vitalihatalski/perkslab/truecron/cnf/staging.json",
+		"/Users/vitalihatalski/perkslab/truecron/cert/truecron/truecron.crt",
+		"/Users/vitalihatalski/perkslab/truecron/cert/truecron/truecron.key",
+		"/Users/vitalihatalski/perkslab/truecron/cert/truecron/truecron.csr",
+		"/Users/vitalihatalski/perkslab/truecron/cert/truecron/positivessl/truecron_com.crt",
+		"/Users/vitalihatalski/perkslab/truecron/bin/www",
+		"/Users/vitalihatalski/perkslab/vagrant/dev/provision/nodejs.sh",
+		"/Users/vitalihatalski/perkslab/vagrant/dev/Vagrantfile",
+		"/Users/vitalihatalski/perkslab/truecron/hellocron.htm",
+		"/Users/vitalihatalski/perkslab/truecron/server.csr",
+		"/Users/vitalihatalski/perkslab/truecron/myserver.key",
+		"/Users/vitalihatalski/perkslab/vagrant/aws-box/Vagrantfile",
+		"/Users/vitalihatalski/perkslab/vagrant/dev/provision/min.js",
+		"/Users/vitalihatalski/perkslab/vagrant/aws-box/metadata.json",
+		"/Users/vitalihatalski/perkslab/vagrant/aws-box/aws.box",
+		"/Users/vitalihatalski/perkslab/truecron/views/index.jade",
+		"/Users/vitalihatalski/perkslab/truecron/routes/index.js",
+		"/Users/vitalihatalski/perkslab/vagrant/metadata.json",
+		"/Users/vitalihatalski/perkslab/cloudcron/app.js",
+		"/Users/vitalihatalski/perkslab/cloudcron/routes/index.js",
+		"/Users/vitalihatalski/perkslab/vagrant/dev/server/hellocron.js",
+		"/Users/vitalihatalski/perkslab/vagrant/dev/provision/postgresql.sh",
+		"/Users/vitalihatalski/perkslab/truecron/bootstrap.sh",
+		"/Users/vitalihatalski/perkslab/truecron/Vagrantfile",
+		"/Users/vitalihatalski/perkslab/vagrant/dev/provision/default.sh",
+		"/Users/vitalihatalski/perkslab/chef-repo/cookbooks/apache/recipes/default.rb",
+		"/Users/vitalihatalski/perkslab/chef-repo/cookbooks/apache/templates/default/index.html.erb",
+		"/Users/vitalihatalski/perkslab/truecron/infrastructure/teamcity.json",
+		"/Users/vitalihatalski/WebSite/team.html",
+		"/Users/vitalihatalski/WebSite/services.html",
+		"/Users/vitalihatalski/WebSite/info.html",
+		"/Users/vitalihatalski/WebSite/index.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 124.0,
+		"where_history":
+		[
+			"/Users/vitalihatalski/perkslab/truecron/ember/app",
+			"/Users/vitalihatalski/WebSite",
+			"/Users/vitalihatalski/visual-feature",
+			"/Users/vitalihatalski/serviceclick",
+			"/Users/vitalihatalski/cloudcron,-node_modules",
+			"/Users/vitalihatalski/visual-feature,-node_modules",
+			"/Users/vitalihatalski/visual-feature/routes",
+			"/Users/vitalihatalski/visual-feature,-node_modules,-public",
+			"/Users/vitalihatalski/visual-feature,-node_modules/,-public/",
+			"/Users/vitalihatalski/visual-feature,-node_modules/",
+			"/Users/vitalihatalski/visual-feature,-/node_modules/",
+			"/Users/vitalihatalski/visual-feature,-/node_modules",
+			"/Users/vitalihatalski/visual-feature",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"englishStatement",
+			"serverSignUpEndpoint",
+			"localhost",
+			"dev.truecron.com:3000",
+			"info",
+			"Info.html",
+			"created",
+			"<",
+			"fixxbook",
+			"AKIAIGBRPATTMJ6X3GGA",
+			"CnVyHtrxsCyuAu0DP1RiNDzWS7zSUUb1XJYBMPAG",
+			"AKIAIGBRPATTMJ6X3GGA",
+			"AWS",
+			"AKIAIBTFF6DB3PMUYTUQ",
+			"google",
+			"Sofia Acey.jpg",
+			"Sofia",
+			"sofia",
+			".jpg",
+			"test",
+			"Acey.jpg",
+			"Sofia%20Acey.jpg",
+			"></",
+			"Sofia Acey.jpg",
+			"Sofia%20Acey.jpg",
+			"getQueryAndUrl",
+			"pathPrefix",
+			"util",
+			"User",
+			"githubAuthenticate",
+			";\n",
+			"callback",
+			"userId",
+			"console",
+			"();\n",
+			"authenticate",
+			"utils",
+			"meta",
+			"console",
+			"client.quit(function (err, res) {\n//     console.log(\"Exiting from quit command.\");\n// });",
+			"httpClient",
+			"getPage",
+			"0px",
+			"SSL routines",
+			"db",
+			"getaddrinfo",
+			"getaddrinfo ENOTFOUND",
+			"Visual Feature",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MtWSKkWsQ1E02iQk4GW87B0yGNLi1d4UrireWZhI",
+			"AKIAIUIU74TSC2IVKQKQ",
+			"lib",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/admin/template.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Handlebars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/menu-section/model.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gringo.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/ServiceChannel.OAuth.Client/sc-oauth-client.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
