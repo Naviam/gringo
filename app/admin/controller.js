@@ -9,6 +9,10 @@ export default Ember.Controller.extend({
 			});
 
 			newMenuSection.save();
+		},
+		deleteMenuSection: function(sectionToDelete) {
+			sectionToDelete.deleteRecord();
+			sectionToDelete.save();
 		}
 	}
 });
