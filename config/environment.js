@@ -26,15 +26,15 @@ module.exports = function(environment) {
     }
   };
 
-  ENV.contentSecurityPolicy = {
-      'default-src': "'none'",
-      'script-src': "'self' 'unsafe-inline' 'unsafe-eval' use.typekit.net",
-      'font-src': "'self' data: use.typekit.net",
-      'connect-src': "'self'",
-      'img-src': "'self' p.typekit.net data:",
-      'style-src': "'self' 'unsafe-inline' use.typekit.net",
-      'frame-src': ""
-    }
+  // ENV.contentSecurityPolicy = {
+  //     'default-src': "'none'",
+  //     'script-src': "'self' 'unsafe-inline' 'unsafe-eval' use.typekit.net",
+  //     'font-src': "'self' data: use.typekit.net",
+  //     'connect-src': "'self' wss://*.firebaseio.com",
+  //     'img-src': "'self' p.typekit.net data:",
+  //     'style-src': "'self' 'unsafe-inline' use.typekit.net",
+  //     'frame-src': ""
+  //   }
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
