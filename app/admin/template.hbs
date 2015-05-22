@@ -28,58 +28,11 @@
 	<div class="row">
 		{{#each dish in section.dishes}}
 		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="" alt="...">
-				<div class="caption">
-					<h3>Название Блюда</h3>
-					<p>Описание</p>
-					<p><a href="#" class="btn btn-primary" role="button">Заказать</a></p>
-				</div>
-			</div>
+			{{menu-item dish=dish remove="removeDish" edit="editDish" addToCart="addDishToCart"}}
 		</div>
 		{{/each}}
 		<div class="col-sm-12 col-md-12">
-			<div class="thumbnail">
-				<div class="caption">
-					<h3>Добавить блюдо в раздел</h3>
-					{{input type="text"   value=dishName placeholder="Название блюда" }}
-					{{input type="text"   value=dishDescription placeholder="Описание блюда" }}
-					{{input type="number" value=dishWeight placeholder="Вес порции" }}
-					{{input type="money"  value=dishPrice }}
-					{{input type="checkbox" checked=dishAvailable}}
-					<p><a href="#" class="btn btn-primary" role="button">Добавить</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="" alt="...">
-				<div class="caption">
-					<h3>Название Блюда</h3>
-					<p>Описание</p>
-					<p><a href="#" class="btn btn-primary" role="button">Заказать</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="" alt="...">
-				<div class="caption">
-					<h3>Название Блюда</h3>
-					<p>Описание</p>
-					<p><a href="#" class="btn btn-primary" role="button">Заказать</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="" alt="...">
-				<div class="caption">
-					<h3>Название Блюда</h3>
-					<p>Описание</p>
-					<p><a href="#" class="btn btn-primary" role="button">Заказать</a></p>
-				</div>
-			</div>
+			{{add-dish-form section=section action="addDishToMenu"}}
 		</div>
 	</div>
 </section>

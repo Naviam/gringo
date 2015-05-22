@@ -1,0 +1,10 @@
+<div class="caption">
+	<h3>Добавить блюдо в раздел</h3>
+	{{input type="text" value=dishName placeholder="Название блюда" }}
+	{{input type="text" value=dishDescription placeholder="Описание блюда" }}
+	{{input type="number" value=dishWeight placeholder="Вес порции" }}
+	{{input type="money" value=dishPrice placeholder="Цена за порцию" }}
+	{{input type="checkbox" checked=dishAvailable }}
+	<p><a href="#" class="btn btn-primary" role="button" {{action "addDish"}}>Добавить</a></p>
+</div>
+{{yield}}
