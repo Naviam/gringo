@@ -4,27 +4,64 @@ export default Ember.Controller.extend({
 	cart: null,
 	actions: {
 		createMenuSection: function() {
-			var newMenuSection = this.store.createRecord('menu-section', {
-				name: this.get('menuSectionName'),
-				description: this.get('menuSectionDescription')
+			var self = this;
+
+			var newMenuSection = self.store.createRecord('menu-section', {
+				name: self.get('menuSectionName'),
+				description: self.get('menuSectionDescription')
 			});
 
-			newMenuSection.save();
+			newMenuSection.save().then(function(result) {
+				if (result) {
+					self.notifications.addNotification({
+		                message: 'Раздел меню был успешно создан.',
+		                type: 'success',
+		                autoClear: true
+		            });
+				} else {
+					self.notifications.addNotification({
+		                message: 'При создании раздела меню возникла непредвиденная ошибка.',
+		                type: 'error',
+		                autoClear: true
+		            });
+				}
+
+				self.setProperties({
+					menuSectionName: '',
+					menuSectionDescription: ''
+				});
+			});
 		},
 		deleteMenuSection: function(sectionToDelete) {
+			var self = this;
 			sectionToDelete.deleteRecord();
-			sectionToDelete.save();
+			sectionToDelete.save().then(function(result) {
+				if (result) {
+					self.notifications.addNotification({
+		                message: 'Раздел меню был успешно удален.',
+		                type: 'success',
+		                autoClear: true
+		            });
+				} else {
+					self.notifications.addNotification({
+		                message: 'При удалении раздела меню возникла непредвиденная ошибка.',
+		                type: 'error',
+		                autoClear: true
+		            });
+				}
+			});
 		},
 		addDishToMenu: function(dish) {
-			var newDish = this.store.createRecord('dish', dish);
+			var self = this;
+			var newDish = self.store.createRecord('dish', dish);
 
-			newDish.save().then(function(saved) {
-				// Ember.Logger.log('saved dish', saved);
+			newDish.save().then(function() {
 				dish.menuSection.save();
-				// Ember.Logger.log('new dish', newDish);
-				// var section = newDish.menuSection;
-				// section.dishes.pushObject(saved);
-				// section.save();
+				self.notifications.addNotification({
+	                message: 'Блюдо было успешно добавлено.',
+	                type: 'success',
+	                autoClear: true
+	            });
 			});
 		},
 		removeDishFromMenu: function(dish) {
@@ -43,8 +80,23 @@ export default Ember.Controller.extend({
 			dish.save();
 		},
 		removeDish: function(dish) {
+			var self = this;
 			dish.deleteRecord();
-			dish.save();
+			dish.save().then(function(result) {
+				if (result) {
+					self.notifications.addNotification({
+		                message: 'Блюдо было успешно удалено.',
+		                type: 'success',
+		                autoClear: true
+		            });
+				} else {
+					self.notifications.addNotification({
+		                message: 'При удалении блюда возникла непредвиденная ошибка.',
+		                type: 'error',
+		                autoClear: true
+		            });
+				}
+			});
 		}
 	}
 });
