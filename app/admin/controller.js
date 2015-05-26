@@ -1,7 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-	cart: null,
 	actions: {
 		createMenuSection: function() {
 			var self = this;
@@ -69,12 +68,20 @@ export default Ember.Controller.extend({
 			dish.save();
 		},
 		addDishToCart: function(dish) {
-			if (this.get('cart')) {
-			} else {
-				this.set('cart', this.store.createRecord('cart'));
-			}
-			this.get('cart').pushObject(dish);
-			this.get('cart').save();
+			var cart = this.get('model.cart');
+			// find dish in a cart
+			// if there is no such dish in a cart create new cart item
+			var cartItem = this.store.createRecord('cart-item', {
+				dish: dish,
+				cart: cart,
+				quantity: 1
+			});
+			// if dish exists update cart item quantity
+			var cartItems = cart.cartItems || [];
+			cartItem.save().then(function(newCart) {
+				cartItems.pushObject(newCart);
+				cart.save();
+			});
 		},
 		editDish: function(dish) {
 			dish.save();

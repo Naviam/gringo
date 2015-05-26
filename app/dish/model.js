@@ -8,6 +8,6 @@ export default DS.Model.extend({
 	hot:         DS.attr('number'),
 	available:   DS.attr('boolean'),
 	show:        DS.attr('boolean'),
-	menuSection: DS.belongsTo('menu-section'),
-	ingredients: DS.hasMany('ingredient')
+	menuSection: DS.belongsTo('menu-section', { async: true }),
+	ingredients: DS.hasMany('ingredient', { async: true })
 });
