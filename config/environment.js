@@ -4,7 +4,9 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'gringo',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    contentSecurityPolicy: {
+      'connect-src': "'self' wss://*.firebaseio.com wss://*.firebase.com https://auth.firebase.com/v2/radiant-fire-7768/auth/anonymous?&v=js-0.0.0&transport=json&suppress_status_codes=true''https://auth.firebase.com/v2/radiant-fire-7768/auth/anonymous?&v=js-0.0.0&transport=json&suppress_status_codes=true"
+    },
     firebase: 'https://radiant-fire-7768.firebaseio.com/',
     baseURL: '/',
     defaultLocationType: 'auto',
