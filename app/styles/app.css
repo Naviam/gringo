@@ -1,4 +1,48 @@
 body {
-	background-image: url('bg_repeat.jpg');
-	background-repeat: repeat;
+	background: url('bg.png') repeat;
+    font-family: 'Roboto', sans-serif;;
+}
+@font-face {
+    font-family: Segoe_font;
+    src: url(segoe-script-regular.ttf);
+}
+header {
+    color: #990b00;
+}
+.logo {
+    background: url("logo.png") no-repeat center;
+    height: 230px;
+}
+.delivery {
+    background: url("deliver_bg.png") no-repeat top center;
+    height: 55px;
+}
+.free_delivery {
+    font-family: "Segoe_font";
+    color: #ffffff;
+    margin: 0;
+    padding-top: 10px;
+}
+.donkey {
+    background: url("donkey.png") no-repeat bottom right;
+    height: 48px;
+}
+.phones {
+    border-top: double 4px #990b00;
+    border-bottom: double 4px #990b00;
+}
+.phones h3 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.order {
+    background: url("order_icon.png") no-repeat bottom right;
+    height: 35px;
+}
+.scedule {
+    background: url("scedule_icon.png") no-repeat bottom right;
+    height: 46px;
+}
+.scedule_div {
+    margin-top: 16px;
 }
