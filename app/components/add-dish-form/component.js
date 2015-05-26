@@ -3,6 +3,21 @@ import Ember from 'ember';
 export default Ember.Component.extend({
 	tagName: 'div',
 	classNames: ['thumbnail'],
+	dishNameId: function() {
+		return "dishName" + this.get('section.id');
+	}.property(),
+	dishDescriptionId: function() {
+		return "dishDescription" + this.get('section.id');
+	}.property(),
+	dishWeightId: function() {
+		return "dishWeight" + this.get('section.id');
+	}.property(),
+	dishPriceId: function() {
+		return "dishPrice" + this.get('section.id');
+	}.property(),
+	dishImageId: function() {
+		return "dishImage" + this.get('section.id');
+	}.property(),
 	actions: {
 		addDish: function() {
 			this.sendAction('action', {
@@ -13,11 +28,13 @@ export default Ember.Component.extend({
 				available: this.get('dishAvailable'),
 				menuSection: this.get('section')
 			});
-			this.set('dishName', null);
-			this.set('dishDescription', null);
-			this.set('dishWeight', null);
-			this.set('dishPrice', null);
-			this.set('dishAvailable', null);
+			this.setProperties({
+				dishName: '',
+				dishDescription: '',
+				dishWeight: '',
+				dishPrice: '',
+				dishAvailable: ''
+			});
 		}
 	}
 });

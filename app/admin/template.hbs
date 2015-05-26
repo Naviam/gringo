@@ -1,6 +1,19 @@
 <header class="container">
 	<div class="row">
 		<div class="col-sm-12">
+			{{#each cartItem in model.cart.cartItems}}
+			<p>{{cartItem.dish.name}}</p>
+			<p>{{cartItem.dish.price}}</p>
+			<p>{{cartItem.dish.price}}</p>
+			<p>{{cartItem.quantity}}</p>
+			<p><button type="submit" class="btn btn-sm btn-default" {{action "removeItemFromCart" cartItem}}>Добавить раздел</button></p>
+			{{else}}
+				<p>Cart is empty</p>
+			{{/each}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
 			<form class="form-horizontal">
 				<h3>Добавить раздел меню</h3>
 				<div class="form-group">
@@ -15,13 +28,13 @@
 				    	{{input id="menuSectionDescription" type="text" class="form-control" value=menuSectionDescription placeholder="Кратко опишите какие блюда содержаться в данном разделе меню"}}
 				    </div>
 				</div>
-				<button type="submit" class="btn btn-default" {{action "createMenuSection"}}>Добавить раздел</button>
+				<button type="submit" class="btn btn-sm btn-default" {{action "createMenuSection"}}>Добавить раздел</button>
 			</form>
 		</div>
 	</div>
 </header>
 <hr/>
-{{#each section in model}}
+{{#each section in model.sections}}
 <section class="container">
 	<h3>{{section.name}}</h3>
 	<a href="#" class="btn btn-sm btn-danger" role="button" {{action "deleteMenuSection" section}}>Удалить раздел</a>

@@ -1,6 +1,7 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-	dish:     DS.belongsTo('dish', { async: true }),
-	quantity: DS.attr('number')
+	quantity: DS.attr('number'),
+	cart:     DS.belongsTo('cart', { async: true }),
+	dish:     DS.belongsTo('dish', { async: true })
 });
