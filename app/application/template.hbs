@@ -38,6 +38,11 @@
         </div>
     </div>
 </header>
+<div class="notifications-container">
+    {{#each notification in notifications}}
+        {{notification-message notification=notification}}
+    {{/each}}
+</div>
 <h2 id="title" class="text-center">Гринго - Мексиканская кухня у Вас дома</h2>
 <h3 class="text-center">{{#link-to 'admin'}}Administration{{/link-to}}</h3>
 {{outlet}}
