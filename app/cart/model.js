@@ -1,6 +1,6 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-	cartItems: DS.hasMany('cart-item', { async: true }),
-	user:      DS.belongsTo('user', { async: true })
+	items: DS.hasMany('cart-item', { embedded: true }),
+	user:  DS.belongsTo('user', { async: true })
 });

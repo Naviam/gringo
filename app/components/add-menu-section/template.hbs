@@ -1,1 +1,15 @@
+<h3>Добавить раздел меню</h3>
+<div class="form-group">
+    <label for="menuSectionName" class="col-sm-2 col-md-1 control-label">Название</label>
+    <div class="col-sm-10 col-md-11">
+    	{{input id="menuSectionName" type="text" class="form-control" value=menuSectionName placeholder="Введите название"}}
+    </div>
+</div>
+<div class="form-group">
+    <label for="menuSectionDescription" class="col-sm-2 col-md-1 control-label">Описание</label>
+    <div class="col-sm-10 col-md-11">
+    	{{input id="menuSectionDescription" type="text" class="form-control" value=menuSectionDescription placeholder="Кратко опишите какие блюда содержаться в данном разделе меню"}}
+    </div>
+</div>
+<button type="submit" class="btn btn-sm btn-default" {{action "submit"}}>Добавить раздел</button>
 {{yield}}

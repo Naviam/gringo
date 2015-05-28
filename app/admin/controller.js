@@ -1,14 +1,40 @@
+/* global Firebase */
 import Ember from 'ember';
+import ENV from 'gringo/config/environment';
 
 export default Ember.Controller.extend({
+	fb: function() {
+		return new Firebase(ENV.firebase);
+	}.property(),
+	authHandler: function(error, authData) {
+		if (error) {
+			console.log("Login Failed!", error);
+			this.notifications.addNotification({
+                message: 'Логин или пароль были введены неверно.',
+                type: 'error',
+                autoClear: true
+            });
+		} else {
+		    console.log("Authenticated successfully with payload:", authData);
+		    this.notifications.addNotification({
+                message: 'Вы успешно авторизовались.',
+                type: 'error',
+                autoClear: true
+            });
+		}
+	},
 	actions: {
-		createMenuSection: function() {
+		signin: function(form) {
+			var ref = this.get('fb')
+			ref.authWithPassword({
+			 	email    : form.email,
+			 	password : form.password
+			}, this.get('authHandler'));
+		},
+		createMenuSection: function(section) {
 			var self = this;
 
-			var newMenuSection = self.store.createRecord('menu-section', {
-				name: self.get('menuSectionName'),
-				description: self.get('menuSectionDescription')
-			});
+			var newMenuSection = self.store.createRecord('menu-section', section);
 
 			newMenuSection.save().then(function(result) {
 				if (result) {
@@ -24,11 +50,6 @@ export default Ember.Controller.extend({
 		                autoClear: true
 		            });
 				}
-
-				self.setProperties({
-					menuSectionName: '',
-					menuSectionDescription: ''
-				});
 			});
 		},
 		deleteMenuSection: function(sectionToDelete) {
