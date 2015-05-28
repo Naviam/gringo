@@ -3,9 +3,12 @@ import Ember from 'ember';
 import ENV from 'gringo/config/environment';
 
 export default Ember.Controller.extend({
+	fb: function() {
+		return new Firebase(ENV.firebase);
+	}.property(),
 	//ref: new Firebase(ENV.firebase),
 	init: function() {
-		var ref = new Firebase(ENV.firebase);
+		var ref = this.get('fb')
 		var authData = ref.getAuth();
 		if (authData) {
 		  console.log("User " + authData.uid + " is logged in with " + authData.provider);
@@ -18,6 +21,22 @@ export default Ember.Controller.extend({
 			    console.log("Authenticated successfully with payload:", authData);
 			  }
 			});
+		}
+	},
+	authHandler: function(error, authData) {
+		if (error) {
+			console.log("Login Failed!", error);
+		} else {
+		    console.log("Authenticated successfully with payload:", authData);
+		}
+	},
+	actions: {
+		signin: function(form) {
+			var ref = this.get('fb')
+			ref.authWithPassword({
+			 	email    : form.email,
+			 	password : form.password
+			}, this.get('authHandler'));
 		}
 	}
 });

@@ -2,13 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
 	actions: {
-		createMenuSection: function() {
+		createMenuSection: function(section) {
 			var self = this;
 
-			var newMenuSection = self.store.createRecord('menu-section', {
-				name: self.get('menuSectionName'),
-				description: self.get('menuSectionDescription')
-			});
+			var newMenuSection = self.store.createRecord('menu-section', section);
 
 			newMenuSection.save().then(function(result) {
 				if (result) {
@@ -24,11 +21,6 @@ export default Ember.Controller.extend({
 		                autoClear: true
 		            });
 				}
-
-				self.setProperties({
-					menuSectionName: '',
-					menuSectionDescription: ''
-				});
 			});
 		},
 		deleteMenuSection: function(sectionToDelete) {
