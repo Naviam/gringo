@@ -22,21 +22,5 @@ export default Ember.Controller.extend({
 			  }
 			});
 		}
-	},
-	authHandler: function(error, authData) {
-		if (error) {
-			console.log("Login Failed!", error);
-		} else {
-		    console.log("Authenticated successfully with payload:", authData);
-		}
-	},
-	actions: {
-		signin: function(form) {
-			var ref = this.get('fb')
-			ref.authWithPassword({
-			 	email    : form.email,
-			 	password : form.password
-			}, this.get('authHandler'));
-		}
 	}
 });

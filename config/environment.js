@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'gringo',
     environment: environment,
     contentSecurityPolicy: {
-      'connect-src': "'self' wss://*.firebaseio.com wss://*.firebase.com",
+      'connect-src': "'self' wss://*.firebaseio.com wss://*.firebase.com https://auth.firebase.com",
       'font-src': "'self' data: use.typekit.net http://fonts.gstatic.com https://auth.firebase.com",
       'style-src': "'self' 'unsafe-inline' use.typekit.net http://fonts.googleapis.com"
     },
