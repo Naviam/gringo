@@ -6,9 +6,8 @@ export default Ember.Controller.extend({
 	fb: function() {
 		return new Firebase(ENV.firebase);
 	}.property(),
-	//ref: new Firebase(ENV.firebase),
 	init: function() {
-		var ref = this.get('fb')
+		var ref = this.get('fb');
 		var authData = ref.getAuth();
 		if (authData) {
 		  console.log("User " + authData.uid + " is logged in with " + authData.provider);
