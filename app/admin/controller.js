@@ -25,7 +25,7 @@ export default Ember.Controller.extend({
 	},
 	actions: {
 		signin: function(form) {
-			var ref = this.get('fb')
+			var ref = this.get('fb');
 			ref.authWithPassword({
 			 	email    : form.email,
 			 	password : form.password
