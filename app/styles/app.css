@@ -1,5 +1,5 @@
 body {
-	background: url('bg.png') repeat;
+	background-color:#f8e8c8;
     font-family: 'Roboto', sans-serif;;
 }
 @font-face {
@@ -8,43 +8,53 @@ body {
 }
 header {
     color: #990b00;
+    background: url('bg.png') repeat-x top;
+}
+.mobile-header {
+    background: url('bg_mobile.png') repeat-x top;
 }
 .logo {
     background: url("logo.png") no-repeat bottom center;
     height: 230px;
 }
+.logo_mobile {
+    background: url("logo_mobile.png") no-repeat bottom center;
+    height: 120px;
+}
 .delivery {
     background: url("deliver_bg.png") no-repeat top center;
     height: 55px;
 }
-.free_delivery {
-    font-family: "Segoe_font";
-    color: #ffffff;
-    margin: 0;
-    padding-top: 10px;
-}
+
 .donkey {
     background: url("donkey.png") no-repeat bottom right;
     height: 48px;
 }
+.donkey-mobile {
+    background: url("donkey_mobile.png") no-repeat bottom right;
+    height: 28px;
+}
 .phones {
     border-top: double 4px #990b00;
     border-bottom: double 4px #990b00;
+    margin-top: 35px;
+}
+.phones-mobile {
+    border-top: double 4px #990b00;
+    border-bottom: double 4px #990b00;
+    margin-top: 5px;
 }
 .phones h3 {
     margin-top: 14px;
     margin-bottom: 14px;
 }
-.order {
-    background: url("order_icon.png") no-repeat bottom right;
-    height: 35px;
-}
 .scedule {
     background: url("scedule_icon.png") no-repeat bottom right;
     height: 46px;
 }
-.scedule_div {
-    margin-top: 16px;
+.scedule-mobile {
+    background: url("scedule_icon_mobile.png") no-repeat bottom right;
+    height: 26px;
 }
 .topper {
     background: url("topper_bg.jpg") no-repeat bottom center;
