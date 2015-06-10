@@ -34,7 +34,7 @@
 <header class="visible-xs visible-sm mobile-header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4 phones-mobile">
+            <div class="col-sm-4 phones-mobile hidden-xs">
                 <div class="col-sm-3 hidden-xs">
                     <div class="donkey-mobile"></div>
                 </div>
@@ -45,10 +45,10 @@
                     <h5>от 120 000 руб</h5>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-sm-4 col-xs-6">
                 <div class="logo_mobile"></div>
             </div>
-            <div class="col-xs-4 phones-mobile">
+            <div class="col-sm-4 col-xs-6 phones-mobile">
                 <div class="col-sm-3 hidden-xs">
                     <div class="scedule-mobile"></div>
                 </div>
@@ -71,10 +71,40 @@
             </div>
         </div>
     </div>
-    <div class="row content">
-        <div class="col-xs-12">
-            <h2 id="title" class="text-center">Гринго - Мексиканская кухня у Вас дома</h2>
-            <h3 class="text-center">{{#link-to 'admin'}}Administration{{/link-to}}</h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 main-container">
+            <div class="col-xs-6 text-center burrito">
+                <div class="menu-title">
+                    <h3 class="menu-h3"><strong>БУРРИТО</strong></h3>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center tacos">
+                <div class="menu-title">
+                    <h3 class="menu-h3"><strong>ТАКОС</strong></h3>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center soups">
+                <div class="menu-title">
+                    <h3 class="menu-h3"><strong>СУПЫ</strong></h3>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center garnish">
+                <div class="menu-title">
+                    <h3 class="menu-h3"><strong>ГАРНИР</strong></h3>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center firm">
+                <div class="menu-title">
+                    <h3 class="menu-h3"><strong>ФИРМЕННЫЕ БЛЮДА</strong></h3>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center drinks">
+                <div class="menu-title">
+                    <h3 class="menu-h3"><strong>НАПИТКИ</strong></h3>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -83,4 +113,21 @@
         {{notification-message notification=notification}}
     {{/each}}
 </div>
+<div class="row content">
+    <div class="col-xs-12">
+        <h3 class="text-center">{{#link-to 'admin'}}Administration{{/link-to}}</h3>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h4>©2015 ООО «Гринго» — Мексиканская еда с доставкой на дом!</h4>
+                <h4>Свидетельство о регистрации №66666666 от 5.03.2015г.</h4>
+                <h4>Лицензия на розничную торговлю №88888/99999 от 27.03.2015г.</h4>
+                <h4>Дата включения в торговый реестр – 29.08.2015г.</h4>
+            </div>
+        </div>
+    </div>
+</footer>
 {{outlet}}

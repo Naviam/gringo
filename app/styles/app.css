@@ -42,7 +42,7 @@ header {
 .phones-mobile {
     border-top: double 4px #990b00;
     border-bottom: double 4px #990b00;
-    margin-top: 5px;
+    margin-top: 13px;
 }
 .phones h3 {
     margin-top: 14px;
@@ -78,4 +78,65 @@ header {
 .brand_sub_title {
     color: #ff0000;
     text-shadow: 0px 4px 2px rgba(70, 70, 70, 1);
+}
+.main-container {
+    color: #ffffff;
+}
+.garnish {
+    background: url("garnish.png") no-repeat center;
+    height: 321px;
+    border: solid 25px #973200;
+    border-top: none;
+    border-left: none;
+    padding: 0;
+}
+.burrito {
+    background: url("burrito.jpg") no-repeat center;
+    height: 321px;
+    border: solid 25px #973200;
+    padding-bottom: 10px;
+    padding: 0;
+}
+.menu-title {
+    background: url("title_bg.png") repeat;
+    margin: 0;
+    padding: 0;
+}
+.menu-h3 {
+    margin: 0;
+    padding: 20px 0;
+}
+.soups {
+    background: url("soups.png") no-repeat center;
+    height: 321px;
+    border: solid 25px #973200;
+    border-top: none;
+    padding: 0;
+}
+.tacos {
+    background: url("tacos.png") no-repeat center;
+    height: 321px;
+    border: solid 25px #973200;
+    border-left: none;
+    padding: 0;
+}
+.drinks {
+    background: url("drinks.png") no-repeat center;
+    height: 321px;
+    border: solid 25px #973200;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    padding: 0;
+}
+.firm {
+    background: url("firm.png") no-repeat center;
+    height: 321px;
+    border: solid 25px #973200;
+    border-top: none;
+    padding: 0;
+}
+footer {
+    background-color: #993300;
+    color: #fff;
 }
