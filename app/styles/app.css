@@ -69,6 +69,10 @@ header {
     margin-right: 0px;
     margin-left: 0px;
 }
+.menu-content {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .brand_title {
     margin: 0;
     color: #ffffff;
@@ -135,6 +139,36 @@ header {
     border: solid 25px #973200;
     border-top: none;
     padding: 0;
+}
+.order {
+    background:#939c07 url("order_bg.png") no-repeat bottom right;
+    color: #ffffff;
+    height: auto;
+}
+.order-title {
+    margin: 0;
+    text-shadow: 0 3px 0 #444;
+    padding: 30px 0;
+}
+.order-sub-title {
+    border-bottom: dashed 1px #ffffff;
+    border-top: dashed 1px #ffffff;
+    padding: 10px 0;
+}
+.total-order {
+    padding: 10px 0;
+}
+.order .row {
+    margin: 0;
+}
+.order-button {
+    padding: 10px 0;
+}
+.main {
+    background: url("bg.png") repeat-x bottom;
+}
+.admin {
+    margin: 0;
 }
 footer {
     background-color: #993300;
