@@ -75,41 +75,75 @@
 <div class="main">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 menu-content">
+            <div class="col-md-8 hidden-xs col-sm-12 menu-content">
                 <div class="col-xs-12 main-container">
-                    <div class="col-xs-6 text-center burrito">
+                    <div class="col-sm-6 text-center burrito">
                         <div class="menu-title">
                             <h3 class="menu-h3"><strong>БУРРИТО</strong></h3>
                         </div>
                     </div>
-                    <div class="col-xs-6 text-center tacos">
+                    <div class="col-sm-6 text-center tacos">
                         <div class="menu-title">
                             <h3 class="menu-h3"><strong>ТАКОС</strong></h3>
                         </div>
                     </div>
-                    <div class="col-xs-6 text-center soups">
+                    <div class="col-sm-6 text-center soups">
                         <div class="menu-title">
                             <h3 class="menu-h3"><strong>СУПЫ</strong></h3>
                         </div>
                     </div>
-                    <div class="col-xs-6 text-center garnish">
+                    <div class="col-sm-6 text-center garnish">
                         <div class="menu-title">
                             <h3 class="menu-h3"><strong>ГАРНИР</strong></h3>
                         </div>
                     </div>
-                    <div class="col-xs-6 text-center firm">
+                    <div class="col-sm-6 text-center firm">
                         <div class="menu-title">
                             <h3 class="menu-h3"><strong>ФИРМЕННЫЕ БЛЮДА</strong></h3>
                         </div>
                     </div>
-                    <div class="col-xs-6 text-center drinks">
+                    <div class="col-sm-6 text-center drinks">
                         <div class="menu-title">
                             <h3 class="menu-h3"><strong>НАПИТКИ</strong></h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="visible-xs col-xs-12 menu-content">
+                <div class="col-xs-12 main-container">
+                    <div class="col-xs-6 text-center burrito">
+                        <div class="menu-title">
+                            <h5 class="menu-h3"><strong>БУРРИТО</strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-center tacos">
+                        <div class="menu-title">
+                            <h5 class="menu-h3"><strong>ТАКОС</strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-center soups">
+                        <div class="menu-title">
+                            <h5 class="menu-h3"><strong>СУПЫ</strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-center garnish">
+                        <div class="menu-title">
+                            <h5 class="menu-h3"><strong>ГАРНИР</strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-center firm">
+                        <div class="menu-title">
+                            <h5 class="menu-h3"><strong>ФИРМЕННЫЕ БЛЮДА</strong></h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 text-center drinks">
+                        <div class="menu-title">
+                            <h5 class="menu-h3"><strong>НАПИТКИ</strong></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 hidden-xs hidden-sm">
                 <div class="order">
                     <h2 class="order-title text-center"><strong>ВАШ ЗАКАЗ</strong></h2>
                     <div class="row">
@@ -177,6 +211,22 @@
             </div>
         </div>
     </div>
+    <div class="visible-sm visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 mobile-order">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <h3 class="mobile-order-icon"></h3>
+                        </div>
+                        <div class="col-xs-9">
+                            <h4><strong>Ваш заказ: </strong><span>120000 руб. </span> <button class="btn btn-danger btn-lg">ЗАКАЗАТЬ</button></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="notifications-container">
         {{#each notification in notifications}}
             {{notification-message notification=notification}}
@@ -189,7 +239,7 @@
     </div>
 </div>
 <footer>
-    <div class="container">
+    <div class="container hidden-sm hidden-xs">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <h4>©2015 ООО «Гринго» — Мексиканская еда с доставкой на дом!</h4>

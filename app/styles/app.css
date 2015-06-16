@@ -174,3 +174,15 @@ footer {
     background-color: #993300;
     color: #fff;
 }
+.mobile-order {
+    background-color:#993300;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.mobile-order-icon {
+    background: url("order_icon.png") no-repeat right 0px;
+    height: 36px;
+}
+.mobile-order-title {
+    margin-left: 90px;
+}
