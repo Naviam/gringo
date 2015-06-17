@@ -1,7 +1,9 @@
 import Ember from 'ember';
 import AuthenticatedRouteMixin from 'simple-auth/mixins/authenticated-route-mixin';
 
-export default Ember.Route.extend(AuthenticatedRouteMixin, {
+
+// AuthenticatedRouteMixin, 
+export default Ember.Route.extend({
 	model: function() {
 		var self = this;
 		var user = this.modelFor('application');
@@ -10,7 +12,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
 		});
 		cart.save();
 		return {
-			sections: self.store.find('menu-section'),
+			sections: self.store.find('menu-chapter'),
 			cart: cart
 		};
 	}
