@@ -1,6 +1,6 @@
 import { moduleForComponent, test } from 'ember-qunit';
 
-moduleForComponent('add-menu-section', 'Unit | Component | add menu section', {
+moduleForComponent('add-menu-chapter', 'Unit | Component | add menu chapter', {
   // Specify the other units that are required for this test
   // needs: ['component:foo', 'helper:bar']
 });

@@ -31,12 +31,12 @@ export default Ember.Controller.extend({
 			 	password : form.password
 			}, this.get('authHandler'));
 		},
-		createMenuSection: function(section) {
+		createMenuChapter: function(chapter) {
 			var self = this;
 
-			var newMenuSection = self.store.createRecord('menu-section', section);
+			var newChapter = self.store.createRecord('menu-chapter', chapter);
 
-			newMenuSection.save().then(function(result) {
+			newChapter.save().then(function(result) {
 				if (result) {
 					self.notifications.addNotification({
 		                message: 'Раздел меню был успешно создан.',
@@ -52,7 +52,7 @@ export default Ember.Controller.extend({
 				}
 			});
 		},
-		deleteMenuSection: function(sectionToDelete) {
+		deleteMenuChapter: function(sectionToDelete) {
 			var self = this;
 			sectionToDelete.deleteRecord();
 			sectionToDelete.save().then(function(result) {
@@ -76,7 +76,7 @@ export default Ember.Controller.extend({
 			var newDish = self.store.createRecord('dish', dish);
 
 			newDish.save().then(function() {
-				dish.menuSection.save();
+				dish.menuChapter.save();
 				self.notifications.addNotification({
 	                message: 'Блюдо было успешно добавлено.',
 	                type: 'success',

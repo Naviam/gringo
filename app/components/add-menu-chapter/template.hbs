@@ -1,0 +1,27 @@
+<h3>Добавить раздел меню</h3>
+<div class="form-group">
+    <label for="chapterName" class="col-sm-2 col-md-1 control-label">Название</label>
+    <div class="col-sm-10 col-md-11">
+    	{{input id="chapterName" type="text" class="form-control" value=chapterName placeholder="Введите название"}}
+    </div>
+</div>
+<div class="form-group">
+    <label for="chapterNameEnglish" class="col-sm-2 col-md-1 control-label">Name</label>
+    <div class="col-sm-10 col-md-11">
+        {{input id="chapterNameEnglish" type="text" class="form-control" value=chapterNameEnglish placeholder="Введите название на английском"}}
+    </div>
+</div>
+<div class="form-group">
+    <label for="chapterImageUrl" class="col-sm-2 col-md-1 control-label">Изображение</label>
+    <div class="col-sm-10 col-md-11">
+    	{{input id="chapterImageUrl" type="text" class="form-control" value=chapterImageUrl placeholder="Введите ссылку на картинку"}}
+    </div>
+</div>
+<div class="form-group">
+    <label for="chapterDescription" class="col-sm-2 col-md-1 control-label">Описание</label>
+    <div class="col-sm-10 col-md-11">
+    	{{input id="chapterDescription" type="text" class="form-control" value=chapterDescription placeholder="Кратко опишите какие блюда содержаться в данном разделе меню"}}
+    </div>
+</div>
+<button type="submit" class="btn btn-sm btn-default" {{action "submit"}}>Добавить раздел</button>
+{{yield}}

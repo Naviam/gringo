@@ -8,7 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('admin');
   this.route('menu', function() {
-  	this.route('menu-chapter', { path: '/:name_eng'});
+  	this.route('chapter', { path: '/:id'});
   });
 });
 
