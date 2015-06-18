@@ -1,6 +1,30 @@
 <div class="row">
+    <div class="col-md-12 hidden-xs hidden-sm">
+        <div class="sub_header text-center">
+            <h1 class="brand_title"><strong>ГРИНГО</strong></h1>
+            <h2 class="brand_sub_title"><strong>Мексиканская кухня у Вас дома</strong></h2>
+        </div>
+    </div>
+</div>
+<div class="row">
     <div class="col-md-8 hidden-xs col-sm-12 menu-content">
         <div class="row">
+        {{#each model as |chapter|}}
+            <div class="col-xs-6">
+                {{#link-to 'menu.chapter' chapter class="thumbnail"}}
+                {{!-- <a href="#" class="thumbnail"> --}}
+                    <img src="{{chapter.image}}" alt="{{chapter.name}}">
+                    <div class="caption">
+                        <h3>{{chapter.name}}</h3>
+                        <p>{{chapter.description}}</p>
+                        {{!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> --}}
+                    </div>
+                {{!-- </a> --}}
+                {{/link-to}}
+            </div>
+        {{/each}}
+        </div>
+        {{!-- <div class="row">
             <div class="col-sm-6 text-center burrito">
                 <div class="menu-title">
                     <h3 class="menu-h3"><strong>БУРРИТО</strong></h3>
@@ -32,7 +56,7 @@
                     <h3 class="menu-h3"><strong>НАПИТКИ</strong></h3>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class="visible-xs col-xs-12 menu-content">
         <div class="row">

@@ -26,7 +26,7 @@ export default Ember.Component.extend({
 				weight: this.get('dishWeight'),
 				price: this.get('dishPrice'),
 				available: this.get('dishAvailable'),
-				menuSection: this.get('section')
+				menuChapter: this.get('section')
 			});
 			this.setProperties({
 				dishName: '',

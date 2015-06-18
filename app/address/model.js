@@ -1,6 +1,7 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
+	city:       DS.attr('string'),
 	street:     DS.attr('string'),
 	house:      DS.attr('string'),
 	entrance:   DS.attr('string'),

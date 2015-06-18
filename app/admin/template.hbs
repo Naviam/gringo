@@ -5,7 +5,7 @@
 		</div>
 		<div class="col-sm-8">
 			<h3>Заказ</h3>
-			{{#each model.cart.cartItems as |cartItem|}}
+			{{!-- {{#each model.cart.cartItems as |cartItem|}}
 			<p>{{cartItem.dish.name}}</p>
 			<p>{{cartItem.dish.price}}</p>
 			<p>{{cartItem.dish.price}}</p>
@@ -13,28 +13,28 @@
 			<p><button type="submit" class="btn btn-sm btn-default" {{action "removeItemFromCart" cartItem}}>Добавить раздел</button></p>
 			{{else}}
 				<p>Корзина пуста</p>
-			{{/each}}
+			{{/each}} --}}
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-12">
-			{{add-menu-section action="createMenuSection"}}
+			{{add-menu-chapter action="createMenuChapter"}}
 		</div>
 	</div>
 </header>
 <hr/>
-{{#each model.sections as |section|}}
+{{#each model as |chapter|}}
 <section class="container">
-	<h3>{{section.name}}</h3>
-	<a href="#" class="btn btn-sm btn-danger" role="button" {{action "deleteMenuSection" section}}>Удалить раздел</a>
+	<h3>{{chapter.name}}</h3>
+	<a href="#" class="btn btn-sm btn-danger" role="button" {{action "deleteMenuChapter" chapter}}>Удалить раздел</a>
 	<div class="row">
-		{{#each section.dishes as |dish|}}
+		{{#each chapter.dishes as |dish|}}
 		<div class="col-sm-6 col-md-4">
 			{{menu-item dish=dish remove="removeDish" edit="editDish" addToCart="addDishToCart"}}
 		</div>
 		{{/each}}
 		<div class="col-sm-12 col-md-12">
-			{{add-dish-form section=section action="addDishToMenu"}}
+			{{add-dish-form section=chapter action="addDishToMenu"}}
 		</div>
 	</div>
 </section>
