@@ -30,6 +30,11 @@ body {
         display: inline;
     }
 }
+@media (max-width: 450px) {
+    .order-text-visible {
+        display: none;
+    }
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 .sticky-footer {
