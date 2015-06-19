@@ -1,7 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-	  background-color:#f8e8c8;
+	background-color:#f8e8c8;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    /* Margin bottom by footer height */
+    margin-bottom: 65px;
+}
+@media (min-width: 992px) {
+    body {
+        margin-bottom: 0px;    
+    }
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
 }
 @font-face {
     font-family: Segoe_font;
@@ -184,30 +204,13 @@ footer {
 .mobile-order {
     background-color:#993300;
     color: #ffffff;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 .mobile-order-icon {
     background: url("order_icon.png") no-repeat right 0px;
     height: 36px;
+    margin-top: 15px;
 }
 .mobile-order-title {
     margin-left: 90px;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.sticky-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
 }
