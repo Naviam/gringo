@@ -14,6 +14,27 @@ body {
         margin-bottom: 0px;
     }
 }
+@media (max-width: 350px) {
+    .iphone45-visible {
+        display: inline;
+    }
+    .iphone45-hidden {
+        display: none;
+    }
+}
+@media (min-width: 350px) {
+    .iphone45-visible {
+        display: none;
+    }
+    .iphone45-hidden {
+        display: inline;
+    }
+}
+@media (max-width: 450px) {
+    .order-text-visible {
+        display: none;
+    }
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 .sticky-footer {
@@ -218,8 +239,8 @@ footer {
 .mobile-order-icon {
     background: url("order_icon.png") no-repeat right 0px;
     height: 36px;
-    margin-top: 15px;
-}
-.mobile-order-title {
-    margin-left: 90px;
+    width: 40px;
+    display: block;
+    margin-top: 5px;
+    float: left;
 }
