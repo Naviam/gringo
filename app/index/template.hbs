@@ -13,10 +13,9 @@
             <div class="col-xs-6">
                 {{#link-to 'menu.chapter' chapter class="thumbnail"}}
                 {{!-- <a href="#" class="thumbnail"> --}}
-                    <img src="{{chapter.image}}" alt="{{chapter.name}}">
+                    <img title="{{chapter.description}}" src="{{chapter.image}}" alt="{{chapter.name}}">
                     <div class="caption">
                         <h3>{{chapter.name}}</h3>
-                        <p>{{chapter.description}}</p>
                         {{!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> --}}
                     </div>
                 {{!-- </a> --}}
@@ -60,7 +59,7 @@
     </div>
     <div class="visible-xs col-xs-12 menu-content">
         <div class="row">
-            <div class="col-xs-6 text-center burrito">
+            <div class="col-xs-6 text-center burrito img-responsive">
                 <div class="menu-title">
                     <h5 class="menu-h3"><strong>БУРРИТО</strong></h5>
                 </div>
