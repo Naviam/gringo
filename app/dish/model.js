@@ -8,6 +8,7 @@ export default DS.Model.extend({
 	hot:         DS.attr('number'),
 	available:   DS.attr('boolean'),
 	show:        DS.attr('boolean'),
+  imageUrl:    DS.attr('string'),
 	menuChapter: DS.belongsTo('menu-chapter', { async: true }),
 	ingredients: DS.hasMany('ingredient', { async: true })
 });

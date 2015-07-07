@@ -59,6 +59,9 @@ body {
 .caption h3 {
   color: #fff
 }
+.thumbnail p {
+  color: #ffffff;
+}
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   border: solid 1px green;
   box-shadow: 0 0 10px green;
@@ -215,9 +218,7 @@ header {
 .total-order {
     padding: 10px 0;
 }
-/*.order .row {
-    margin: 0;
-}*/
+
 .order-button {
     padding: 10px 0;
 }
@@ -234,7 +235,6 @@ footer {
 .mobile-order {
     background-color:#993300;
     color: #ffffff;
-    /*margin-top: 15px;*/
 }
 .mobile-order-icon {
     background: url("order_icon.png") no-repeat right 0px;
