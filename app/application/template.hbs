@@ -62,29 +62,24 @@
         </div>
     </div>
 </header>
-<div class="main">
+<div class="notifications-container">
+    {{#each notifications as |notification|}}
+        {{notification-message notification=notification}}
+    {{/each}}
+</div>
+{{!-- <div class="main"> --}}
     <div class="container">
         {{outlet}}
-        <div class="row">
-            <div class="col-xs-12">
-                <h3 class="text-center">{{#link-to 'admin'}}Administration{{/link-to}}</h3>
-                <div class="notifications-container">
-                    {{#each notifications as |notification|}}
-                        {{notification-message notification=notification}}
-                    {{/each}}
-                </div>
-            </div>
-        </div>
     </div>
-</div>
+{{!-- </div> --}}
 <footer class="hidden-sm hidden-xs">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <p>©2015 ООО «Гринго» — Мексиканская еда с доставкой на дом!<br/>
+            <div class="col-md-12 text-center">
+                <h5>©2015 ООО «Гринго» — Мексиканская еда с доставкой на дом!<br/>
                 Свидетельство о регистрации №66666666 от 5.03.2015г.<br/>
                 Лицензия на розничную торговлю №88888/99999 от 27.03.2015г.<br/>
-                Дата включения в торговый реестр – 29.08.2015г.</p>
+                Дата включения в торговый реестр – 29.08.2015г.</h5>
             </div>
         </div>
     </div>
@@ -92,10 +87,10 @@
 <footer class="sticky-footer visible-sm visible-xs">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 text-right mobile-order">
+            <div class="col-xs-12 mobile-order">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <h4><span class="iphone45-visible">Заказ:</span><span class="iphone45-hidden">Ваш заказ:</span> <span>2 120 000 р.</span>&nbsp; <button class="btn btn-danger btn-lg"><i class="glyphicon glyphicon-shopping-cart"></i> <span class="order-text-visible"> ЗАКАЗАТЬ</span></button>
+                        <h4><span class="iphone45-visible">Заказ:</span><span class="iphone45-hidden">Ваш заказ:</span> <span>2 120 000 р.</span>&nbsp; <button class="btn btn-success btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="order-text-visible"> ЗАКАЗАТЬ</span></button>
                         </h4>
                     </div>
                 </div>
