@@ -1,11 +1,24 @@
-{{#each model.dishes as |dish|}}
 <div class="row">
-{{dish.name}}
-{{dish.description}}
-{{dish.weight}}
-{{dish.price}}	
+    <div class="col-xs-12">
+        <div class="row">
+          {{#each model.dishes as |dish|}}
+            <div class="col-xs-6">
+                <div class="thumbnail">
+                    <img src="{{dish.imageUrl}}" alt="{{dish.name}}">
+                    <div class="caption">
+                        <h3>{{dish.name}}</h3>
+                        <p>{{dish.description}}</p>
+                        <p>{{dish.weight}}</p>
+                        <p>{{dish.price}}</p>
+                        <p><a href="#" class="btn btn-success" role="button">Добавить</a></p>
+                    </div>
+                </div>
+            </div>
+          {{else}}
+              блюда в данной категории отсутствуют
+          {{/each}}
+        </div>
+    </div>
 </div>
-{{else}}
-блюда в данной категории отсутствуют
-{{/each}}
+
 {{outlet}}

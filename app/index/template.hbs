@@ -7,27 +7,56 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-8 col-sm-12 col-xs-12">
-        {{!-- <div class="row"> --}}
+    <div class="col-md-8 hidden-xs col-sm-12 menu-content">
+        <div class="row">
         {{#each model as |chapter|}}
             <div class="col-xs-6">
                 {{#link-to 'menu.chapter' chapter class="thumbnail"}}
-                {{!-- <a href="#" class="thumbnail"> --}}
                     <img title="{{chapter.description}}" src="{{chapter.image}}" alt="{{chapter.name}}">
                     <div class="caption">
-                        <h3 class="hidden-xs">{{chapter.name}}</h3>
-                        <h5 class="visible-xs">{{chapter.name}}</h5>
-                        {{!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> --}}
+                        <h3>{{chapter.name}}</h3>
                     </div>
-                {{!-- </a> --}}
                 {{/link-to}}
             </div>
         {{/each}}
-        {{!-- </div> --}}
+        </div>
+    </div>
+    <div class="visible-xs col-xs-12 menu-content">
+        <div class="row">
+            <div class="col-xs-6 text-center burrito">
+                <div class="menu-title">
+                    <h5 class="menu-h3"><strong>БУРРИТО</strong></h5>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center tacos">
+                <div class="menu-title">
+                    <h5 class="menu-h3"><strong>ТАКОС</strong></h5>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center soups">
+                <div class="menu-title">
+                    <h5 class="menu-h3"><strong>СУПЫ</strong></h5>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center garnish">
+                <div class="menu-title">
+                    <h5 class="menu-h3"><strong>ГАРНИР</strong></h5>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center firm">
+                <div class="menu-title">
+                    <h5 class="menu-h3"><strong>ФИРМЕННЫЕ БЛЮДА</strong></h5>
+                </div>
+            </div>
+            <div class="col-xs-6 text-center drinks">
+                <div class="menu-title">
+                    <h5 class="menu-h3"><strong>НАПИТКИ</strong></h5>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="col-md-4 hidden-xs hidden-sm">
-        <div class="row">
-        <div class="col-md-12 order">
+        <div class="order">
             <h2 class="order-title text-center"><strong>ВАШ ЗАКАЗ</strong></h2>
             <div class="row">
                 <div class="col-md-3 col-md-offset-6">КОЛ-ВО</div>
@@ -86,11 +115,10 @@
                     <div class="col-md-9">ИТОГО</div>
                     <div class="col-md-3">210000</div>
                     <div class="col-md-12 order-button text-center">
-                        <a class="btn btn-danger btn-lg">ЗАКАЗАТЬ</a>
+                        <a class="btn btn-success btn-lg">ЗАКАЗАТЬ</a>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 </div>
