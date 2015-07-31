@@ -20,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "2.1.0",
-    "ember-cli": "0.2.7",
+    "ember-cli": "1.13.6",
     "ember-cli-app-version": "0.4.0",
     "ember-cli-babel": "5.0.0",
     "ember-cli-content-security-policy": "0.4.0",
@@ -34,9 +34,9 @@
     "ember-cli-simple-auth": "0.8.0",
     "ember-cli-simple-auth-firebase": "1.0.5",
     "ember-cli-uglify": "1.2.0",
-    "ember-data": "1.13.4",
+    "ember-data": "1.13.7",
     "ember-disable-proxy-controllers": "1.0.0",
     "ember-export-application-global": "1.0.2",
-    "emberfire": "firebase/emberfire.git#master"
+    "emberfire": "1.5.0"
   }
 }
